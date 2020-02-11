@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.yalantis.jellytoolbar.widget.JellyToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:cancelIcon="@drawable/ic_cancel_black_24dp"
+        app:endColor="@color/colorPrimaryDark"
+        app:icon="@drawable/ic_location_searching_black_24dp"
+        app:startColor="@color/colorPrimary"
+        app:title="Jelly Test"
+        app:titleTextColor="@android:color/white"
+        >
+    </com.yalantis.jellytoolbar.widget.JellyToolbar>
+
+</LinearLayout>
